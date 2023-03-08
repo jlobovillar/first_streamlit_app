@@ -19,6 +19,6 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.dataframe(my_fruit_list)
 
 # Pongamos una lista de selección aquí para que puedan escoger la fruta que quieren incluir 
-streamlit.multiselect("Recoger algunas frutas:", list(my_fruit_list.index)`['Avocado','Strawberries']) 
+streamlit.multiselect("Recoger algunas frutas:", list(my_fruit_list.index),['Avocado','Strawberries']) 
 
 
